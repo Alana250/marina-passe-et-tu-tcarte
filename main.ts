@@ -1,5 +1,4 @@
-basic.showIcon(IconNames.Heart)
-if (input.buttonIsPressed(Button.A)) {
+input.onButtonPressed(Button.A, function () {
     basic.clearScreen()
     basic.showLeds(`
         . # # . .
@@ -8,8 +7,11 @@ if (input.buttonIsPressed(Button.A)) {
         # . . # .
         # . . # .
         `)
-}
-if (input.buttonIsPressed(Button.B)) {
+})
+input.onButtonPressed(Button.AB, function () {
+    basic.clearScreen()
+})
+input.onButtonPressed(Button.B, function () {
     basic.clearScreen()
     basic.showLeds(`
         # # # . .
@@ -18,7 +20,5 @@ if (input.buttonIsPressed(Button.B)) {
         # . . # .
         # # # . .
         `)
-}
-if (input.buttonIsPressed(Button.AB)) {
-    basic.clearScreen()
-}
+})
+basic.showIcon(IconNames.Heart)

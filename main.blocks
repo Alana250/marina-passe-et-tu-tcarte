@@ -1,13 +1,13 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="v(arK-7B!(x%q1s8JZZ]" x="20" y="20"><statement name="HANDLER"><block type="basic_show_icon" id="S}pW2|E62Q2C#~WqWv-)"><field name="i">IconNames.Heart</field><next><block type="controls_if" id="E8gzE+B{-tPJu%-l!-g#"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="9Dschd3tU73:-OrUtD2:"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="device_clear_display" id="ApaX{CK`WnhQTF9|]dfx"><next><block type="device_show_leds" id="3v9!M?vFHMNKak.]2CVB"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="v(arK-7B!(x%q1s8JZZ]" x="0" y="0"><statement name="HANDLER"><block type="basic_show_icon" id="S}pW2|E62Q2C#~WqWv-)"><field name="i">IconNames.Heart</field></block></statement></block><block type="device_button_event" id="*:e/:aWM(B:p-M8E8%L#" x="262" y="120"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_clear_display" id="ApaX{CK`WnhQTF9|]dfx"><next><block type="device_show_leds" id="3v9!M?vFHMNKak.]2CVB"><field name="LEDS">`
         . # # . . 
         # . . # . 
         # # # # . 
         # . . # . 
         # . . # .
-        `</field></block></next></block></statement><next><block type="controls_if" id="q2Gs[XgB}Zq*(B8e5,]x"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="dNRJ#7E1J=[r#}X(@Gjb"><field name="NAME">Button.B</field></block></value><statement name="DO0"><block type="device_clear_display" id="N*zDu?MPo[(Bs/#wb%|0"><next><block type="device_show_leds" id="VcJ1ZDq/E5r.=gspwSM8"><field name="LEDS">`
+        `</field></block></next></block></statement></block><block type="device_button_event" id="FKmm($p,9|`)IE2TPT3o" x="103" y="399"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_clear_display" id="N*zDu?MPo[(Bs/#wb%|0"><next><block type="device_show_leds" id="VcJ1ZDq/E5r.=gspwSM8"><field name="LEDS">`
         # # # . . 
         # . . # . 
         # # # . . 
         # . . # . 
         # # # . .
-        `</field></block></next></block></statement><next><block type="controls_if" id="H_`TKwU.jzg}?IXt5-NP"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="bZ$+v|EFB07vQF;B?PKw"><field name="NAME">Button.AB</field></block></value><statement name="DO0"><block type="device_clear_display" id="-M=W%BtEwfW8Z7`lqdF-"/></statement></block></next></block></next></block></next></block></statement></block></xml>
+        `</field></block></next></block></statement></block><block type="device_button_event" id="_2|NWh]@vL`?oNgtOOGs" x="76" y="765"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_clear_display" id="A`do.$^G]Qx,qJw@3W3J"/></statement></block></xml>
